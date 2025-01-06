@@ -33,3 +33,12 @@
     margin-left: -20px;
     color: white;
 }
+
+.row2{
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+}
+.row2 header{
+    margin: 0px;
+}
