@@ -24,6 +24,17 @@
                 </div>
             </nav>
         </div>
+        <div class="row2">
+            <header>D</header>
+            <img src="images/logo-donat.png" alt="" width="150px">
+            <header>NUT'S</header>
+        </div>
+        <div class="row3">
+            <p>hahahahah</p>
+        </div>
+        <div class="row4">
+            <img src="images/donat3.png" alt="">
+        </div>
     </div>
 
 
