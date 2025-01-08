@@ -41,7 +41,7 @@
             </div>
     </div>
     <div class="row2">
-        <div class="layer2">Halo</div>
+        <div class="layer2">Halo Rara</div>
     </div>
     <footer class="footer">
         <div class="logo-footer">
