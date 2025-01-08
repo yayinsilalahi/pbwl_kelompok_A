@@ -26,11 +26,12 @@
         </div>
         <div class="row2">
             <header>D</header>
-            <img src="images/logo-donat.png" alt="" width="150px">
+            <img src="images/donat pink.png">
             <header>NUT'S</header>
         </div>
         <div class="row3">
-            <p>hahahahah</p>
+            <p>"Experience happiness in every bite. Our donuts, your perfect companion for
+ every moment”</p>
         </div>
         <div class="row4">
             <img src="images/donat3.png" alt="">
