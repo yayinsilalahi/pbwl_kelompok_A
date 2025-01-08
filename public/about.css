@@ -1,11 +1,9 @@
-
-
 body {
     font-family: 'Abyssinica SIL', sans-serif;
 }
 
 
-.container{
+.container {
     background: linear-gradient(to right, #c294a5f3 50%, #df6773f1 50%);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -15,15 +13,17 @@ body {
     border: 3px solid;
     border-color: white;
 }
-.navbar{
+
+.navbar {
     justify-content: space-between;
     margin: 0px;
 }
-.nav-link{
+
+.nav-link {
     display: flex;
     justify-content: space-between;
     gap: 5rem;
-    list-style: none; 
+    list-style: none;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -32,7 +32,7 @@ body {
     margin-right: 40px;
 }
 
-.gambar1{
+.gambar1 {
     margin-top: -100px;
     margin-left: 290px;
     opacity: 0.8;
@@ -40,46 +40,47 @@ body {
 
 .welcome {
     position: absolute;
-    top: 35%;       
-    left: 40%;      
-    transform: translate(-30%, -30%); 
-    color: #D04251;   
+    top: 35%;
+    left: 40%;
+    transform: translate(-30%, -30%);
+    color: #D04251;
     font-size: 100px;
     font-family: "Abyssinica SIL", serif;
     font-style: normal;
-    padding: 10px;  
+    padding: 10px;
     -webkit-text-stroke: 1px #992b36;
 }
 
 .sosmed {
     position: absolute;
-    top: 85%;       
-    left: 12%;      
-    transform: translate(-30%, -30%); 
-    color: white;   
-    padding: 10px;  
+    top: 85%;
+    left: 12%;
+    transform: translate(-30%, -30%);
+    color: white;
+    padding: 10px;
     font-size: 30px;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
 }
+
 .donat2 {
     position: absolute;
-    top: 90%;       
-    left: 80%;      
-    transform: translate(-30%, -30%);  
+    top: 90%;
+    left: 80%;
+    transform: translate(-30%, -30%);
     padding: 10px;
 }
 
 .garis-vertikal {
     position: absolute;
-    top: 55%;       
-    left: 87%;      
-    transform: translate(-30%, -30%);  
+    top: 55%;
+    left: 87%;
+    transform: translate(-30%, -30%);
     padding: 10px;
 }
 
-.layer2{
+.layer2 {
     background: linear-gradient(to right, #D04251 50%, #6A2229 50%);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -92,25 +93,24 @@ body {
     border-color: white;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo-footer{
+.logo-footer {
     display: flex;
     align-items: center;
 }
 
-.logo-footer p{
+.logo-footer p {
     margin-left: -20px;
     color: white;
 }
 
-.sosmed-footer{
+.sosmed-footer {
     margin-right: 30px;
     font-size: 25px;
     gap: 3rem;
 }
-

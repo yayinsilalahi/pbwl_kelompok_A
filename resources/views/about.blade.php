@@ -41,7 +41,29 @@
             </div>
     </div>
     <div class="row2">
-        <div class="layer2">ISI KONTEN ABOUT</div>
+        <div class="layer2" style="display: flex; gap: 20px; padding: 20px; background-color: #C9526E; color: white; border-radius: 10px; font-family: 'Questrial', sans-serif;">
+            <div class="left-col" style="flex: 1; padding: 20px;">
+                <h1 style="font-size: 40px; text-align: center; font-weight: font-family: 'Laila', sans-serif; margin-bottom: 10px;">Donat Bahagia</h1>
+                <p style="font-size: 22px; text-align: center; font-weight: font-family: 'Laila', sans-serif; margin-bottom: 5px;">Senin - Sabtu : 10.00 WIB - 17.00 WIB</p>
+                <p style="font-size: 22px; text-align: center; font-weight: font-family: 'Laila', sans-serif; margin-bottom: 5px;">Tempat : Jln. Tuntungan</p>
+                <div style="display: flex; align-items: center;">
+                    <hr style="border: none; border-left: 3px solid white; height: 250px; margin: 0 15px;">
+                    <hr style="border: none; border-left: 3px solid white; height: 200px; margin: 0 15px;">
+                    <hr style="border: none; border-left: 3px solid white; height: 150px; margin: 0 15px;">
+                </div>
+                <p style="font-size: 40px; text-align: center; font-weight: font-family: 'Laila', sans-serif; margin-bottom: 5px;">All varian</p>
+                <p style="font-size: 40px; text-align: center; font-weight: font-family: 'Laila', sans-serif; margin-bottom: 5px;">start Rp. 3.000</p>
+            </div>
+            <div class="right-col" style="flex: 1; text-align: center;">
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: center;">
+                    <img src="{{ asset('images/about_donat_1_biru.png') }}" alt="" style="width: 100px; border-radius: 50%;">
+                    <img src="{{ asset('images/about_donat_2_coklat.png') }}" alt="" style="width: 100px; border-radius: 50%;">
+                    <img src="{{ asset('images/about_donat_3_pink.png') }}" alt="" style="width: 100px; border-radius: 50%;">
+                    <img src="{{ asset('images/about_donat_4_putih.png') }}" alt="" style="width: 100px; border-radius: 50%;">
+                </div>
+            </div>            
+            </div>
+        </div>
     </div>
     <footer class="footer">
         <div class="logo-footer">
@@ -55,7 +77,6 @@
         </div>
     </footer>
     
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
