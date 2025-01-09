@@ -41,7 +41,7 @@
             </div>
     </div>
     <div class="row2">
-        <div class="layer2">ISI KONTEN FEEDBACK</div>
+        <div class="layer2">ISI FEEDBACK</div>
     </div>
     <footer class="footer">
         <div class="logo-footer">
