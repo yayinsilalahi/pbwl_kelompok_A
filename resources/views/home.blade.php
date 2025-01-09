@@ -41,7 +41,70 @@
             </div>
     </div>
     <div class="row2">
-        <div class="layer2">Halo Rara</div>
+        <div class="layer2">
+            <div class="menu">
+                <div class="product">
+                    <div>
+                        <img src="images/donat_hijau.png" alt="" width="160px">
+                        <p style="margin-left: 45px">Matcha</p>
+                    </div>
+                    <div>
+                        <img src="images/donat_merah.png" alt="" width="160px">
+                        <p style="margin-left: 50px">Redvelvet</p>
+                    </div>
+                    <div>
+                        <img src="images/donat_coklat.png" alt="" width="160px">
+                        <p style="margin-left: 45px">Chochlat</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div>
+                        <img src="images/donat_taro.png" alt="" width="150px">
+                        <p style="margin-left: 55px">Taro</p>
+                    </div>
+                    <div>
+                        <img src="images/donat_cap.png" alt="" width="150px">
+                        <p style="margin-left: 35px">Cappucino</p>
+                    </div>
+                    <div>
+                        <img src="images/donat_cute.png" alt="" width="165px">
+                        <p style="margin-left: 45px">Strawberry</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div>
+                        <img src="images/donat_blue.png" alt="" width="150px">
+                        <p style="margin-left: 45px">bluberry</p>
+                    </div>
+                    <div>
+                        <img src="images/donat_tiramisyu.png" alt="" width="150px">
+                        <p style="margin-left: 40px">Tiramisu</p>
+                    </div>
+                    <div>
+                        <img src="images/donat_bintik.png" alt="" width="145px">
+                        <p style="margin-left: 40px">Durian</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <div class="left-col">
+                        <h1>Tooping Donat:</h1>
+                        <p>1. Chochocip</p>
+                        <p>2. Keju</p>
+                        <p>3. Seres</p>
+                        <p>4. Kacang</p>
+                    </div>
+                    <div class="garis" style="display: flex; align-items: center;">
+                        <hr style="border: none; border-left: 3px solid white; height: 250px; margin: 0 15px;">
+                        <hr style="border: none; border-left: 3px solid white; height: 200px; margin: 0 15px;">
+                        <hr style="border: none; border-left: 3px solid white; height: 150px; margin: 0 15px;">    
+                        <hr style="border: none; border-left: 3px solid white; height: 250px; margin: 0 15px;"> 
+                        <hr style="border: none; border-left: 3px solid white; height: 250px; margin: 0 15px;">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="footer">
         <div class="logo-footer">

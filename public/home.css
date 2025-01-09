@@ -83,13 +83,26 @@ body {
     background: linear-gradient(to right, #D04251 50%, #6A2229 50%);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    height: 600px;
-    width: 1200px;
-    margin-left: 103px;
+    height: 800px;
+    width: 1140px;
+    margin-left: 105px;
     border-bottom: 3px solid;
     border-left: 3px solid;
     border-right: 3px solid;
     border-color: white;
+    display: flex;
+
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.product{
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
 .footer{
@@ -112,5 +125,32 @@ body {
     margin-right: 30px;
     font-size: 25px;
     gap: 3rem;
+}
+.col-md-6{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.col-md-6 h1{
+    font-size: 50px; 
+    font-family: 'Laila', sans-serif; 
+    margin-bottom: 10px;
+}
+
+.col-md-6 p{
+    font-size: 30px; 
+    font-family: 'Laila', sans-serif; 
+    margin-bottom: 5px;
+}
+.left-col{
+    margin-top: 80px;
+    margin-left: 30px;
+    color: white;
+}
+.garis{
+    color: white;
+    position: absolute;
+    top: 145%;       
+    left: 80%;      
+    transform: translate(-30%, -30%); 
 }
 
