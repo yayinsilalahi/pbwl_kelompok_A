@@ -55,11 +55,20 @@
                 <p style="font-size: 40px; text-align: center; font-weight: font-family: 'Laila', sans-serif; margin-bottom: 5px;">start Rp. 3.000</p>
             </div>
             <div class="right-col" style="flex: 1; text-align: center;">
-                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: center;">
-                    <img src="{{ asset('images/about_donat_1_biru.png') }}" alt="" style="width: 100px; border-radius: 50%;">
-                    <img src="{{ asset('images/about_donat_2_coklat.png') }}" alt="" style="width: 100px; border-radius: 50%;">
-                    <img src="{{ asset('images/about_donat_3_pink.png') }}" alt="" style="width: 100px; border-radius: 50%;">
-                    <img src="{{ asset('images/about_donat_4_putih.png') }}" alt="" style="width: 100px; border-radius: 50%;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; justify-items: center;">
+                    <!-- Baris pertama: Biru dan Pink (di kiri) -->
+                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; top: -10px;">
+                        <img src="images/about_donat_1_biru-.png" alt="" width="210px" style="transform: rotate(130deg);">
+                        <img src="images/about_donat_3_pink.png" alt="" width="210px">
+                    </div>
+                
+                    <!-- Baris kedua: Coklat dan Putih (di kanan) -->
+                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; top: 10px;">
+                        <img src="images/about_donat_2_coklat.png" alt="" width="180px" style="transform: rotate(190deg);">
+                        <img src="images/about_donat_4_putih.png" alt="" width="180px" style="transform: rotate(190deg); position: relative; top: 50px;">
+                    </div>
+                </div>                              
+                    </div>
                 </div>
             </div>            
             </div>

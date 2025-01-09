@@ -1,7 +1,7 @@
+/* CSS Umum */
 body {
     font-family: 'Abyssinica SIL', sans-serif;
 }
-
 
 .container {
     background: linear-gradient(to right, #c294a5f3 50%, #df6773f1 50%);
@@ -113,4 +113,56 @@ body {
     margin-right: 30px;
     font-size: 25px;
     gap: 3rem;
+}
+
+/* CSS untuk Donat */
+/* CSS untuk Layout */
+.right-col {
+    display: flex;
+    flex-direction: column;
+    /* Susun elemen secara vertikal */
+    align-items: center;
+    /* Elemen di tengah */
+    gap: 20px;
+    /* Jarak antar elemen */
+    position: relative;
+}
+
+.product {
+    position: relative;
+    /* Agar tiap elemen bisa diposisikan secara spesifik */
+}
+
+/* Donat Biru */
+.donat-biru img {
+    margin-top: 40px;
+    margin-right: 30px;
+    /* Geser ke kekiri */
+    width: 160px;
+}
+
+/* Donat Coklat */
+.donat-coklat img {
+    margin-top: 40px;
+    /* Turunkan posisi sedikit */
+    margin-left: 30px;
+    /* Geser ke kanan */
+    width: 160px;
+}
+
+/* Donat Pink dan Putih */
+.donat-pink img {
+    margin-top: 40px;
+    /* Turunkan posisi sedikit */
+    margin-right: 30px;
+    /* Geser ke kanan */
+    width: 160px;
+}
+
+.donat-putih img {
+    margin-top: 40px;
+    /* Turunkan posisi sedikit */
+    margin-left: 30px;
+    /* Geser ke kanan */
+    width: 160px;
 }
