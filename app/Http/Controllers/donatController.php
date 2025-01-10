@@ -73,4 +73,20 @@ class donatController extends Controller
     {
         //
     }
+    public function submitFeedback(Request $request)
+    {
+        // Validasi data input
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phone' => 'required|string|max:15',
+            'feedback' => 'required|string',
+        ]);
+
+        // Simpan data feedback ke database (opsional)
+        // Feedback::create($request->all());
+
+        // Redirect kembali ke halaman feedback dengan pesan sukses
+        return redirect()->route('feedback')->with('success', 'Feedback berhasil dikirim!');
+    }
 }
