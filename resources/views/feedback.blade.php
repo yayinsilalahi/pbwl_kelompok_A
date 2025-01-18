@@ -41,42 +41,36 @@
             </div>
     </div>
     <div class="row2">
-        <div class="row2 mt-5">
-            <div class="layer2 d-flex flex-column align-items-center justify-content-center">
-                <h2 class="text-white mb-4">Saran & Kritik</h2>
-                <form action="{{ route('submit.feedback') }}" method="POST" class="w-75">
-                    @csrf
-                    <div class="mb-3">
-                        <label for="nama" class="form-label text-white">Nama</label>
-                        <input type="text" class="form-control" id="nama" name="nama" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label text-white">E-mail</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="no_hp" class="form-label text-white">No. HP</label>
-                        <input type="text" class="form-control" id="no_hp" name="no_hp" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="kritik" class="form-label text-white">Kritik/Saran</label>
-                        <textarea class="form-control" id="kritik" name="kritik" rows="4" required></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label text-white">Rating</label><br>
-                        <div class="star-rating">
-                            <input type="radio" name="rating" value="5" id="star5"><label for="star5" class="fa fa-star"></label>
-                            <input type="radio" name="rating" value="4" id="star4"><label for="star4" class="fa fa-star"></label>
-                            <input type="radio" name="rating" value="3" id="star3"><label for="star3" class="fa fa-star"></label>
-                            <input type="radio" name="rating" value="2" id="star2"><label for="star2" class="fa fa-star"></label>
-                            <input type="radio" name="rating" value="1" id="star1"><label for="star1" class="fa fa-star"></label>
+        <div class="layer2">
+            <h1>Kirim Feedback</h1>
+            @if (session('success'))
+                <p>{{ session('success') }}</p>
+            @endif
+            <form action="{{ route('feedback.store') }}" method="POST">
+                @csrf
+                <div class="form">
+                    <div class="form1">
+                        <div>
+                            <label for="nama">Nama</label>
+                            <input type="text" id="nama" name="nama" placeholder="Input Nama" class="form-control" required>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Input Email" class="form-control" required>
+                        </div>
+                        <div>
+                            <label for="phone">No. Hp/WA</label>
+                            <input type="text" id="phone" name="phone" placeholder="Input Nomor Hp atau WA" class="form-control" required>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Kirim</button>
-                </form>
-            </div>
+                    <div class="form2">
+                        <label for="feedback">Kritik/Saran</label>
+                        <textarea name="feedback" id="feedback" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                </div>
+                <button type="submit">Kirim</button>
+            </form>
         </div>
-    </div>
     </div>
     <footer class="footer">
         <div class="logo-footer">

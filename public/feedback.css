@@ -121,3 +121,6 @@ body {
     font-size: 25px;
     gap: 3rem;
 }
+.form input{
+    padding: 20px;
+}

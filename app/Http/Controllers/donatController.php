@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Feedback;
 use Illuminate\Http\Request;
 
 class donatController extends Controller
@@ -21,25 +22,27 @@ class donatController extends Controller
     {
         return view('about');
     }
-    public function feedback()
+    public function create()
     {
         return view('feedback');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'nama' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:20',
+            'feedback' => 'required|string|max:1000'
+        ]);
+        Feedback::create([
+            'nama' => $request->nama,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'feedback' => $request->feedback,
+        ]);
+
+        return redirect('/feedback')->with('success', 'Feedback berhasil dikirim!');
     }
 
     /**
@@ -72,21 +75,5 @@ class donatController extends Controller
     public function destroy(string $id)
     {
         //
-    }
-    public function submitFeedback(Request $request)
-    {
-        // Validasi data input
-        $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email',
-            'phone' => 'required|string|max:15',
-            'feedback' => 'required|string',
-        ]);
-
-        // Simpan data feedback ke database (opsional)
-        // Feedback::create($request->all());
-
-        // Redirect kembali ke halaman feedback dengan pesan sukses
-        return redirect()->route('feedback')->with('success', 'Feedback berhasil dikirim!');
     }
 }
