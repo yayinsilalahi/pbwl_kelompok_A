@@ -24,7 +24,7 @@
                 <div class="nav-link">
                     <a class="nav-link" href="{{ route('home') }}">Home</a>
                     <a class="nav-link" href="{{ route('about') }}">About</a>
-                    <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
+                    <a class="nav-link" href="{{ route('feedback.create') }}">Feedback</a>
                 </div>
             </nav>
         </div>
@@ -41,7 +41,35 @@
             </div>
     </div>
     <div class="row2">
-        <div class="layer2">ISI KONTEN ADMIN</div>
+        <div class="layer2">
+            <h1 style="color: white">Daftar Feedback</h1>
+            <div class="tabel">
+                <table class="table table-dark table-sm table-striped table-bordered text-center mt-2">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nama</th>
+                            <th>Email</th>
+                            <th>No. HP</th>
+                            <th>Kritik/Saran</th>
+                            <th>Waktu Kirim</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach($feedback as $f)
+                            <tr>
+                                <td>{{ $f->id }}</td>
+                                <td>{{ $f->nama }}</td>
+                                <td>{{ $f->email }}</td>
+                                <td>{{ $f->phone }}</td>
+                                <td>{{ $f->feedback }}</td>
+                                <td>{{ $f->created_at }}</td>
+                            </tr>
+                        @endforeach
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
     <footer class="footer">
         <div class="logo-footer">

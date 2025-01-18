@@ -124,3 +124,27 @@ body {
 .form input{
     padding: 20px;
 }
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+.form1{
+    width: 500px;
+}
+.form2{
+    width: 500px;
+}
+.layer2 h1{
+    color: white;
+    margin-left: 30px;
+}
+
+.simpan{
+    width: 1130px;
+    padding: 30px;
+}

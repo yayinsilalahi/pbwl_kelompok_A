@@ -20,7 +20,7 @@
                 <div class="nav-link">
                     <a class="nav-link" href="{{ route('home') }}">Home</a>
                     <a class="nav-link" href="{{ route('about') }}">About</a>
-                    <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
+                    <a class="nav-link" href="{{ route('feedback.create') }}">Feedback</a>
                 </div>
             </nav>
         </div>

@@ -24,7 +24,7 @@
                 <div class="nav-link">
                     <a class="nav-link" href="{{ route('home') }}">Home</a>
                     <a class="nav-link" href="{{ route('about') }}">About</a>
-                    <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
+                    <a class="nav-link" href="{{ route('feedback.create') }}">Feedback</a>
                 </div>
             </nav>
         </div>
@@ -68,7 +68,9 @@
                         <textarea name="feedback" id="feedback" cols="30" rows="10" class="form-control"></textarea>
                     </div>
                 </div>
-                <button type="submit">Kirim</button>
+                <div class="simpan">
+                    <button class="btn btn-primary" type="submit" style="width: 100%">Kirim</button>
+                </div>
             </form>
         </div>
     </div>
